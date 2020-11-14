@@ -1,0 +1,68 @@
+@{
+    ViewData["Title"] = "Informacion";
+}
+
+<div class="container">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <a asp-area="" asp-controller="Home" asp-action="Info">
+                    <span class="border"><img class="card-img-top" 
+                    style="height: 500px; width: 100%; display: block;" src="~/img/brevehistoria.jpg"></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4>Breve Historia del Tiempo</h4>
+                <hr>
+                <ul class="list-unstyled">
+                    <li>
+                        <p>Autor: Stephen Hawking</p>
+                        <hr>
+                    </li>
+                    <li>
+                        <p>Descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, obcaecati. 
+                            At praesentium quasi nisi veniam! Illum, id, quibusdam quidem aperiam, laborum modi a 
+                            voluptas reiciendis ipsa sequi deleniti. Commodi, qui?
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Precio</h4>
+                <hr>
+                <ul class="list-unstyled">
+                    <li>S/ 30.50</li>
+                    <hr>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Compras"><button class="btn btn-primary">COMPRAR</button></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+        <h3>Libros parecidos</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <span class="border"><img class="card-img-top" 
+                    style="height: 500px; width: 100%; display: block;" src="~/img/brevehistoria.jpg"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <span class="border"><img class="card-img-top" 
+                    style="height: 500px; width: 100%; display: block;" src="~/img/cienañosdesoledad.jpg"></span>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <span class="border"><img class="card-img-top" 
+                    style="height: 500px; width: 100%; display: block;" src="~/img/elresplandor.jpg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Home\\Compras.cshtml",
+      "TargetPath": "Views\\Home\\Compras.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -14429,6 +14434,11 @@
     {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Home\\Info.cshtml",
+      "TargetPath": "Views\\Home\\Info.cshtml",
       "FileKind": "mvc"
     },
     {
