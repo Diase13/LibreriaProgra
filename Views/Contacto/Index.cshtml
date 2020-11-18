@@ -1,0 +1,57 @@
+@model LibreriaProgra.Models.Contacto
+
+@{
+    ViewData["Title"] = "HECHO POR PIERO SALAZAR ASCENCIO";
+}
+
+<div class="text-center">
+  <h1 class="display-4">Formulario Nuevo</h1>
+   <form asp-controller="Contacto" asp-action="Enviar">
+            <label>Nombre</label>
+            <input asp-for="nombre"/>
+            <br/>
+
+            <label>Autor</label>
+            <input asp-for="autor"/>
+            <br/>
+
+            <label>Idioma</label>
+            <input asp-for="idioma"/>
+            <br/>
+
+            <label>ISBN</label>
+            <input asp-for="isbn"/>
+            <br/>
+
+            <label>Editorial</label>
+            <input asp-for="editorial"/>
+            <br/>
+
+            <label>Paginas</label>
+            <input asp-for="pagina"/>
+            <br/>
+
+             <label>Precio</label>
+            <input asp-for="precio"/>
+            <br/>
+
+            <div class="form-group">
+                <label asp-for="descripcion" class="control-label"></label>
+                <textarea asp-for="descripcion" class="form-control" /></textarea>
+            </div>  
+      
+          
+
+              <input type="submit" value="Enviar">
+   </form>
+  <td>@Html.DisplayNameFor(model => model.Respuesta)</td>
+    <td>@Html.DisplayTextFor(model => model.Respuesta)</td>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer>
+    <p align="center">HECHO POR PIERO SALAZAR ASCENCIO</p>
+</footer>

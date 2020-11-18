@@ -94,3 +94,204 @@ C:\Users\PC\Desktop\Progra I\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProg
 C:\Users\PC\Desktop\Progra I\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.genruntimeconfig.cache
 C:\Users\PC\Desktop\Progra I\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Compras.cshtml.g.cs
 C:\Users\PC\Desktop\Progra I\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Info.cshtml.g.cs
+C:\Users\PC\Desktop\Progra I\LibreriaProgra\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\PC\Desktop\Progra I\LibreriaProgra\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\PC\Desktop\Progra I\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Contacto\Index.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.StaticWebAssets.xml
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\app.db
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.exe
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.deps.json
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.runtimeconfig.json
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.runtimeconfig.dev.json
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.pdb
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.Views.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.Views.pdb
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Npgsql.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.csprojAssemblyReference.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.AssemblyInfo.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorAssemblyInfo.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorAssemblyInfo.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.TagHelpers.input.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.TagHelpers.output.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorCoreGenerate.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Contacto\Index.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Compras.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Info.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorTargetAssemblyInfo.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorTargetAssemblyInfo.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.Views.pdb
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.csproj.CopyComplete
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\staticwebassets\LibreriaProgra.StaticWebAssets.Manifest.cache
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\staticwebassets\LibreriaProgra.StaticWebAssets.xml
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.pdb
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.genruntimeconfig.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\appsettings.json
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\app.db
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.StaticWebAssets.xml
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.exe
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.deps.json
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.runtimeconfig.json
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.runtimeconfig.dev.json
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.pdb
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.Views.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\LibreriaProgra.Views.pdb
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Data.Sqlite.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.core.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\SQLitePCLRaw.provider.dynamic_cdecl.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\alpine-x64\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-arm\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-armel\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libe_sqlite3.so
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\e_sqlite3.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.csprojAssemblyReference.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.AssemblyInfoInputs.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.AssemblyInfo.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.csproj.CoreCompileInputs.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.MvcApplicationPartsAssemblyInfo.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.MvcApplicationPartsAssemblyInfo.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorAssemblyInfo.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorAssemblyInfo.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.TagHelpers.input.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.TagHelpers.output.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorCoreGenerate.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Contacto\Index.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Compras.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Info.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorTargetAssemblyInfo.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.RazorTargetAssemblyInfo.cs
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.Views.pdb
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.csproj.CopyComplete
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\staticwebassets\LibreriaProgra.StaticWebAssets.Manifest.cache
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\staticwebassets\LibreriaProgra.StaticWebAssets.xml
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.dll
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.pdb
+D:\DOCUMENTOS\UNIVERSIDAD\6 CICLO\PROGRA 1\LibreriaProgra\obj\Debug\netcoreapp3.1\LibreriaProgra.genruntimeconfig.cache
