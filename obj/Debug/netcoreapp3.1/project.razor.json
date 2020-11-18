@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\LibreriaProgra.csproj",
+  "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,58 +14392,63 @@
   "RootNamespace": "LibreriaProgra",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Contacto\\Index.cshtml",
+      "TargetPath": "Views\\Contacto\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Home\\Compras.cshtml",
-      "TargetPath": "Views\\Home\\Compras.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Shared\\_LoginPartial.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Home\\Compras.cshtml",
+      "TargetPath": "Views\\Home\\Compras.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Home\\Info.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Home\\Info.cshtml",
       "TargetPath": "Views\\Home\\Info.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\Desktop\\Progra I\\LibreriaProgra\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
