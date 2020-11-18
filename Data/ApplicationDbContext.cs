@@ -12,5 +12,7 @@ namespace LibreriaProgra.Data
             : base(options)
         {
         }
+
+        public DbSet<LibreriaProgra.Models.Contacto> Contactos { get; set; }
     }
 }

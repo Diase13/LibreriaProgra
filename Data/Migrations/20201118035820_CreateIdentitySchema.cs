@@ -1,7 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace LibreriaProgra.Data.Migrations
+namespace LibreriaProgra.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
@@ -47,11 +48,31 @@ namespace LibreriaProgra.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "t_libro",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    name = table.Column<string>(nullable: true),
+                    autor = table.Column<string>(nullable: true),
+                    idioma = table.Column<string>(nullable: true),
+                    isbn = table.Column<string>(nullable: true),
+                    editorial = table.Column<string>(nullable: true),
+                    precio = table.Column<int>(nullable: false),
+                    pages = table.Column<int>(nullable: false),
+                    descripcion = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_libro", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "AspNetRoleClaims",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     RoleId = table.Column<string>(nullable: false),
                     ClaimType = table.Column<string>(nullable: true),
                     ClaimValue = table.Column<string>(nullable: true)
@@ -72,7 +93,7 @@ namespace LibreriaProgra.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     UserId = table.Column<string>(nullable: false),
                     ClaimType = table.Column<string>(nullable: true),
                     ClaimValue = table.Column<string>(nullable: true)
@@ -206,6 +227,9 @@ namespace LibreriaProgra.Data.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "t_libro");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
