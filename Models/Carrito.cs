@@ -1,49 +1,26 @@
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using LibreriaProgra.Models;
-using LibreriaProgra.Data;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace LibreriaProgra.Controllers
+namespace LibreriaProgra.Models
 {
-    public class CarritoController : Controller
+     public class Carrito
     {
+        [Display(Name="Nombre")]
+        public String Nombre { get; set; }
 
-       private readonly ILogger<CarritoController> _logger;
-       private readonly ApplicationDbContext _context;
+        [Display(Name="Precio")]
+        public String Precio { get; set; }
 
+        [Display(Name="Cantidad")]
+        public int Cantidad { get; set; }
 
-        public CarritoController(ILogger<CarritoController> logger,
-            ApplicationDbContext context)
-        {
-            _logger = logger;
-            _context = context;
-        }
+        [Display(Name="Subtotal")]
+        public int Subtotal { get; set; }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
+        [Display(Name="Mensaje")]
+        public String Message { get; set; }
 
-        public IActionResult Create()
-        {
-            return View();
-        }
-
-       
-
-        public IActionResult Confimar(Carrito objCarrito)
-        {
-                objCarrito.Respuesta = "Compra Realizada " ;
-                _context.Add(objCarrito);
-                _context.SaveChanges();
-                return View("index", objCarrito);
-        }
+        public String Response { get; set; }
     }
 }
