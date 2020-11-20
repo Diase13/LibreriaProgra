@@ -44,7 +44,7 @@ namespace LibreriaProgra.Controllers
                 {
                     -context.Add()objCarrito;
                     _context.SaveChanges();
-                    objCarrito.Response = "Compra Realizada " ;
+                    objCarrito.Respuesta = "Compra Realizada " ;
                 }                
             return View("index", objCarrito);
         }
