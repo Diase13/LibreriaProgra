@@ -1,3 +1,4 @@
+@model LibreriaProgra.Models.Carrito
 @{
     ViewData["Title"] = "Hecho por Veronica Varas";
 }
@@ -10,30 +11,38 @@
             <table class="table table-bordered">
                  <thead>
                     <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                    <th scope="col">Subtotal</th>
                     </tr>
                  </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <th scope="row">Cazadores de sombras I</th>
+                        <td>40</td>
+                        <td>1</td>
+                        <td>40</td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <th scope="row">Harry Potter IV</th>
+                        <td>55</td>
+                        <td>2</td>
+                        <td>110</td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td colspan="2">Larry the Bird</td>
-                        <td>@twitter</td>
+                        <th scope="row">Percy Jackson I</th>
+                        <td>45</td>
+                        <td>2</td>
+                        <td>90</td>
                     </tr>
+                    <tr>
+                        <th scope="row">Los Juegos del Hambre II</th>
+                        <td>45</td>
+                        <td>1</td>
+                        <td>45</td>
+                    </tr>
+                   
                 </tbody>
             </table>
             <div class="form-group">
