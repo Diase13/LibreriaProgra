@@ -42,9 +42,9 @@ namespace LibreriaProgra.Controllers
         {
             if (ModelState.IsValid)
                 {
-                    -context.Add()objCarrito;
+                    _context.Add(objCarrito);
                     _context.SaveChanges();
-                    objCarrito.Respuesta = "Compra Realizada " ;
+                    objCarrito.Response = "Compra Realizada " ;
                 }                
             return View("index", objCarrito);
         }
