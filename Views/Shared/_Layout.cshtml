@@ -26,11 +26,8 @@
           <li><a asp-controller="Conocenos" asp-action="Index">Conocenos</a></li>
           <li><a asp-controller="Catalogo" asp-action="Index">Catalogo de Libros</a></li>
           <li><a asp-controller="Contactenos" asp-action="Index">Contactenos</a></li>
-          <li><a asp-controller="Home" asp-action="Index">Ofertas y Promociones</a></li>         
-          <li><a asp-controller="Home" asp-action="Index">Novedades</a>  </li>
           <li><a asp-controller="Carrito" asp-action="Index">Carrito</a></li>
-          <li><a href="#">Registrate</a></li>
-          <li class="#"><a href="#about">Login</a></li>
+          <partial name="_LoginPartial"/>
         </ul>
       </nav>
     </div>
