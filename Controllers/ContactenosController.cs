@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using proga.Models;
 
-namespace proga.Controllers
+namespace LibreriaProgra.Controllers
 {
     public class ContactenosController : Controller
     {
