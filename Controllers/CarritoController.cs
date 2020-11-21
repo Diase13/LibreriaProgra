@@ -36,6 +36,10 @@ namespace LibreriaProgra.Controllers
             return View();
         }
 
+        public IActionResult Proceso()
+        {
+            return View();
+        }
        
         [HttpPost]
         public IActionResult Confimar(Carrito objCarrito)

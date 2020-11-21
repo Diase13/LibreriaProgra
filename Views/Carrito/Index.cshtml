@@ -6,8 +6,6 @@
 <div class="row">
     <div class="col-md-12">  
         <h1 class="display-12">CARRITO DE COMPRAS</h1>
-        <form asp-controller="CARRITO DE COMPRAS" asp-action="Confirmar">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <table class="table table-bordered">
                  <thead>
                     <tr>
@@ -46,10 +44,8 @@
                 </tbody>
             </table>
             <div class="form-group">
-                 <button type="submit" class="btn btn-outline-primary">Confirmar</button> 
-            </div>                
-
-        </form>
+                 <li><a asp-area="" asp-controller="Carrito" asp-action="Proceso"><button class="btn btn-primary">Confirmar</button></a></li>
+            </div>
             
         <td>@Html.DisplayTextFor(model => model.Response)</td>    
     
