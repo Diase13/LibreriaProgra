@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\varas\\Desktop\\ProyectoP\\LibreriaProgra\\LibreriaProgra.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\varas\\Desktop\\ProyectoP\\LibreriaProgra\\LibreriaProgra.csproj": {
+    "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\varas\\Desktop\\ProyectoP\\LibreriaProgra\\LibreriaProgra.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj",
         "projectName": "LibreriaProgra",
-        "projectPath": "C:\\Users\\varas\\Desktop\\ProyectoP\\LibreriaProgra\\LibreriaProgra.csproj",
-        "packagesPath": "C:\\Users\\varas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\varas\\Desktop\\ProyectoP\\LibreriaProgra\\obj\\",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\LibreriaProgra.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\varas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +48,10 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.8, )"
@@ -57,6 +59,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",

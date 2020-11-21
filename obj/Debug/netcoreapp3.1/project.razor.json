@@ -14392,8 +14392,23 @@
   "RootNamespace": "LibreriaProgra",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Contactenos\\Index.cshtml",
+      "TargetPath": "Views\\Contactenos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Carrito\\Proceso.cshtml",
+      "TargetPath": "Views\\Carrito\\Proceso.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14412,13 +14427,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Catalogo\\Index.cshtml",
+      "TargetPath": "Views\\Catalogo\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Carrito\\Index.cshtml",
+      "TargetPath": "Views\\Carrito\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14432,13 +14462,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Home\\Compras.cshtml",
       "TargetPath": "Views\\Home\\Compras.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Conocenos\\Index.cshtml",
+      "TargetPath": "Views\\Conocenos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
