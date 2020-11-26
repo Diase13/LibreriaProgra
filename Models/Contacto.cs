@@ -45,8 +45,11 @@ namespace LibreriaProgra.Models
 
     public string descripcion { get; set; }
 
-    [NotMapped]
+    [Column("imagen")]
+    public string imagen { get; set; }
 
+
+    [NotMapped]
     public String Respuesta { get; set; }
 
     }
