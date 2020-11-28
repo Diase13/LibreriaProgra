@@ -4,23 +4,28 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LibreriaProgra.Models
 {
-     public class Carrito
+    [Table("t_carrito")]
+    public class Carrito
     {
-        [Display(Name="Nombre")]
-        public String Nombre { get; set; }
 
-        [Display(Name="Precio")]
-        public String Precio { get; set; }
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+    [Column("id")]
+    public int ID { get; set; }
 
-        [Display(Name="Cantidad")]
-        public int Cantidad { get; set; }
+    [Column("name")]
+    public string nombre { get; set; }
 
-        [Display(Name="Subtotal")]
-        public int Subtotal { get; set; }
+    [Column("precio")]
+    public int precio { get; set; }
 
-        [Display(Name="Mensaje")]
-        public String Message { get; set; }
+    [Column("cantidad")]
+    public int cantidad { get; set; }
 
-        public String Response { get; set; }
+    [Column("subtotal")]
+    public int subtotal { get; set; }
+
+    [NotMapped]
+    public String Respuesta { get; set; }
+
     }
 }
