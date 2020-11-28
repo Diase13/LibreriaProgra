@@ -25,7 +25,7 @@ namespace LibreriaProgra.Models
     public int subtotal { get; set; }
 
     [NotMapped]
-    public String Respuesta { get; set; }
+    public String Response { get; set; }
 
     }
 }
