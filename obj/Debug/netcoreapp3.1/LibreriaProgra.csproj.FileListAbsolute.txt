@@ -486,3 +486,7 @@ C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win-
 C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\PC\Desktop\Progra1\LibreriaProgra\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
