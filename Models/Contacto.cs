@@ -34,7 +34,7 @@ namespace LibreriaProgra.Models
 
     [Column("precio")]
 
-    public int precio { get; set; }
+    public double precio { get; set; }
     
     [Column("pages")]
 

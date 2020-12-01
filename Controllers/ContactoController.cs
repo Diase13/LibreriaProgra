@@ -31,6 +31,11 @@ namespace LibreriaProgra.Controllers
             return View();
         }
 
+        public IActionResult Listar()
+        {
+            var listContactos=_context.Contactos.ToList();
+            return View(listContactos);
+        }
         public IActionResult Create()
         {
             return View();

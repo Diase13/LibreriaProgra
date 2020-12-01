@@ -490,3 +490,4 @@ C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\I
 C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\PC\Desktop\Progra1\LibreriaProgra\obj\Debug\netcoreapp3.1\Razor\Views\Contacto\Listar.cshtml.g.cs
