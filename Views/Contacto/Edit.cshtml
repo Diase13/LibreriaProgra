@@ -1,0 +1,61 @@
+@model LibreriaProgra.Models.Contacto
+
+@{
+    ViewData["Title"] = "Usuario";
+}
+<div class="container">
+<div class="row">
+    <div class="col-md-4">  
+        <h1 class="display-4">Editar Libro</h1>
+        <form asp-controller="Contacto" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            
+            <div class="form-group">
+                <label asp-for="nombre" class="control-label"></label>
+                <input asp-for="nombre" class="form-control" />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>                  
+                   
+            <div class="form-group">
+                <label asp-for="autor" class="control-label"></label>
+                <input asp-for="autor" class="form-control" />
+            </div>               
+              <div class="form-group">
+                <label asp-for="idioma" class="control-label"></label>
+                <input asp-for="idioma" class="form-control" />
+            </div>      
+              <div class="form-group">
+                <label asp-for="isbn" class="control-label"></label>
+                <input asp-for="isbn" class="form-control" />
+            </div>      
+              <div class="form-group">
+                <label asp-for="editorial" class="control-label"></label>
+                <input asp-for="editorial" class="form-control" />
+            </div>      
+              <div class="form-group">
+                <label asp-for="precio" class="control-label"></label>
+                <input asp-for="precio" class="form-control" />
+            </div>      
+              <div class="form-group">
+                <label asp-for="pagina" class="control-label"></label>
+                <input asp-for="pagina" class="form-control" />
+            </div>      
+              <div class="form-group">
+                <label asp-for="descripcion" class="control-label"></label>
+                <input asp-for="descripcion" class="form-control" />
+            </div> 
+             <div class="form-group">
+                        <input type="file" asp-for="imagen"/>
+            </div>    
+            <div class="form-group">
+                 <button type="submit" class="btn btn-default">Actualizar</button> 
+            </div>                
+
+        </form>
+            
+        <td>@Html.DisplayTextFor(model => model.Respuesta)</td>    
+    
+    </div>
+</div>
+</div>

@@ -3,7 +3,7 @@
 <h2>Lista Contactos</h2>
 
 <p>
-    <a asp-action="Create">Create</a>
+    <a asp-action="Index">Create</a>
 </p>
 <table class="table table-hover">
     <thead class="thead-dark">
@@ -39,7 +39,8 @@
                 @Html.DisplayFor(modelItem => item.autor)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.imagen)
+            <img src="~/img/@item.imagen" alt="@item.imagen" width="100" height="150">
+
             </td>
         </tr>
     }        

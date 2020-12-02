@@ -49,9 +49,10 @@ namespace LibreriaProgra.Controllers
                 _context.SaveChanges();
                 objContacto.Respuesta = "Gracias estamos en contacto";
             }
+            
             return View(objContacto);
         }
-
+                
         // GET: Contacto/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -70,7 +71,7 @@ namespace LibreriaProgra.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,LastName,Email,Phone")] Contacto contacto)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,nombre,autor,idioma,isbn,editorial,precio,pagina,descripcion,imagen")] Contacto contacto)
         {
             if (id != contacto.ID)
             {
