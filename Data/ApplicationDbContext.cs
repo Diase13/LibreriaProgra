@@ -14,5 +14,6 @@ namespace LibreriaProgra.Data
         }
 
         public DbSet<LibreriaProgra.Models.Contacto> Contactos { get; set; }
+        public DbSet<LibreriaProgra.Models.Usuario> Usuarios { get; set; }
     }
 }
