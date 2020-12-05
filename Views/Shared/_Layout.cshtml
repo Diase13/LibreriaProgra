@@ -21,13 +21,14 @@
         <h1 class="text-light"><a asp-controller="Home" asp-action="Index">The One<span>.</span></a></h1>
       </div>
       <nav class="nav-menu d-none d-lg-block">
+        <partial name="_LoginPartial"/>
         <ul>
           <li><a asp-controller="Home" asp-action="Index">Inicio</a></li>
           <li><a asp-controller="Conocenos" asp-action="Index">Conocenos</a></li>
           <li><a asp-controller="Catalogo" asp-action="Index">Catalogo de Libros</a></li>
           <li><a asp-controller="Contactenos" asp-action="Index">Contactenos</a></li>
           <li><a asp-controller="Carrito" asp-action="Index">Carrito</a></li>
-          <partial name="_LoginPartial"/>
+          <partial name="_MenuPartial" />
         </ul>
       </nav>
     </div>

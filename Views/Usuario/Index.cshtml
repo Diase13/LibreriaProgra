@@ -1,0 +1,40 @@
+@model IEnumerable<LibreriaProgra.Models.Usuario>
+
+<h2>Lista Usuarios</h2>
+
+<p>
+    <a asp-action="Create">Create</a>
+</p>
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+                <th scope="col">
+                    #
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Email)
+                </th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <th scope="row">
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+        </tr>
+    }        
+    </tbody>    
+</table>
