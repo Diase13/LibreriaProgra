@@ -63,7 +63,14 @@ namespace LibreriaProgra.Controllers
             }
             return View(usuario);
         }
-        
+          public IActionResult Delete(int? id)
+        {
+            var usuario = _context.Usuarios.Find(id);
+            _context.Usuarios.Remove(usuario);
+            _context.SaveChanges();
+            return RedirectToAction(nameof(Index));
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Email")] Usuario usuario)
