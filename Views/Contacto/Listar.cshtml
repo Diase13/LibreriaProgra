@@ -1,9 +1,14 @@
 @model IEnumerable<LibreriaProgra.Models.Contacto>
+@{
+    ViewData["Title"] = "Productos";
+}
 
-<h2>Lista Contactos</h2>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+<h2>Lista Libros</h2>
 
 <p>
-    <a asp-action="Index">Create</a>
+    <button class="btn btn-primary"class="btn btn-success" onclick="window.location='@Url.Action("Index", "Contacto")'">Registrar</button>
 </p>
 <table class="table table-hover">
     <thead class="thead-dark">
@@ -18,6 +23,9 @@
                     @Html.DisplayNameFor(model => model.autor)
                 </th>
                 <th scope="col">
+                    @Html.DisplayNameFor(model => model.precio)
+                </th>
+                <th scope="col">
                     @Html.DisplayNameFor(model => model.imagen)
                 </th>
         </tr>
@@ -29,8 +37,8 @@
     {
         <tr>
             <th scope="row">
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>| 
+                <a asp-action="Delete" asp-route-id="@item.ID" id="delete">Delete</a>
             </th>
             <td>
                 @Html.DisplayFor(modelItem => item.nombre)
@@ -39,10 +47,58 @@
                 @Html.DisplayFor(modelItem => item.autor)
             </td>
             <td>
-            <img src="~/img/@item.imagen" alt="@item.imagen" width="100" height="150">
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+            <img src="~/img/books/@item.imagen" alt="@item.imagen" width="100" height="150">
 
             </td>
+
         </tr>
     }        
     </tbody>    
 </table>
+
+
+@if ((String)TempData["prueba"] == "prueba01")
+{
+    <input value="hola" id="hola01" type="hidden">
+}
+
+@if ((String)TempData["prueba02"] == "prueba02") 
+{
+    <input value="hola" id="prueba02" type="hidden">
+}
+
+    <script>
+        
+        var x = document.getElementById('hola01').value;
+
+        if(x == "hola") {
+        
+            Swal.fire(
+                'Registro exitoso',
+                'El libro ha sido registrado exitosamente',
+                'success'
+            )
+  
+        }
+
+       
+
+    </script>
+
+   <script>
+        
+        var y = document.getElementById('prueba02').value;
+
+        if(y == "hola") {
+
+            Swal.fire(
+                'Editado correctamente',
+                'El libro se ha editado correctamente',
+                'success'
+            )
+        }
+   </script> 
+

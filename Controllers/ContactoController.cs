@@ -33,25 +33,12 @@ namespace LibreriaProgra.Controllers
 
         public IActionResult Listar()
         {
-            var listContactos=_context.Contactos.ToList();
+            var listContactos=_context.Contactos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
             return View(listContactos);
         }
-        public IActionResult Create()
-        {
-            return View();
-        }
+     
 
-        [HttpPost]
-        public IActionResult Create(Contacto objContacto){
-            if (ModelState.IsValid)
-            {
-                _context.Add(objContacto);
-                _context.SaveChanges();
-                objContacto.Respuesta = "Gracias estamos en contacto";
-            }
-            
-            return View(objContacto);
-        }
+      
                 
         // GET: Contacto/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -90,7 +77,8 @@ namespace LibreriaProgra.Controllers
                     return NotFound();
                     
                 }
-                return RedirectToAction(nameof(Index));
+                  TempData["prueba02"] = "prueba02";
+                return RedirectToAction(nameof(Listar));
             }
             return View(contacto);
         }
@@ -102,14 +90,19 @@ namespace LibreriaProgra.Controllers
             var contacto = _context.Contactos.Find(id);
             _context.Contactos.Remove(contacto);
             _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Listar));
         }
 
         public IActionResult Enviar(Contacto objFormulario)
         {
-                objFormulario.Respuesta = "YA ESTAS REGISTRADO EL LIBRO " + "\n" + objFormulario.nombre;
-                _context.Add(objFormulario);
+              if (ModelState.IsValid)
+                {
+              _context.Add(objFormulario);
                 _context.SaveChanges();
+                TempData["prueba"] = "prueba01";
+                objFormulario.Respuesta = "Gracias. Formulario enviado";
+                return RedirectToAction("Listar");  
+                }
                 return View("index", objFormulario);
         }
     }
