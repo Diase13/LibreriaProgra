@@ -37,15 +37,17 @@ namespace LibreriaProgra.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Create(Usuario objUsuario){
-            if (ModelState.IsValid)
-            {
-                _context.Add(objUsuario);
+        public IActionResult Enviar(Usuario objFormulario)
+        {
+              if (ModelState.IsValid)
+                {
+              _context.Add(objFormulario);
                 _context.SaveChanges();
-                objUsuario.Response = "Gracias estamos en contacto";
-            }
-            return View(objUsuario);
+                TempData["prueba"] = "prueba01";
+                objFormulario.Respuesta = "Gracias. Formulario enviado";
+                return RedirectToAction("Index");  
+                }
+                return View("Index", objFormulario);
         }
 
         // GET: Contacto/Edit/5
@@ -73,7 +75,7 @@ namespace LibreriaProgra.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Email")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,nombre,apellidos,direccion,distrito,sexo,Email,edad,celular")] Usuario usuario)
         {
             if (id != usuario.ID)
             {
@@ -92,6 +94,7 @@ namespace LibreriaProgra.Controllers
                     return NotFound();
                     
                 }
+                 TempData["prueba02"] = "prueba02";
                 return RedirectToAction(nameof(Index));
             }
             return View(usuario);
