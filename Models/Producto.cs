@@ -54,6 +54,8 @@ namespace LibreriaProgra.Models
     [Column("descripcion")]
     public string descripcion { get; set; }
 
+    [Required(ErrorMessage="Debe ingresar la imagen del libro a registrar")]
+    [Display(Name="URL de imagen del libro")] 
     [Column("imagen")]
     public string imagen { get; set; }
 
