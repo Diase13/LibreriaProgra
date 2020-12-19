@@ -1,4 +1,4 @@
-@model IEnumerable<LibreriaProgra.Models.Producto>
+@model IEnumerable<LibreriaProgra.Models.OrdenDetail>
 @{
     ViewData["Title"] = "Hecho por Diego Sotomayor";
 }
@@ -7,34 +7,49 @@
       <div class="container">
 
         <div class="section-title">
-          <h2 data-aos="fade-in">Nuestros Libros</h2>
-          <p data-aos="fade-in">Los mejores libros para agregarlos a su biblioteca</p>
+          <h2 data-aos="fade-in">Carrito de Compras</h2>
+          <p data-aos="fade-in">Los producto seleccionados apareceran aca</p>
         </div>
 
 
     <div class="row catalogue-container" data-aos="fade-up">
 
+    <table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Cantidad)
+                </th>
+        </tr>
+    </thead>
 	@foreach (var item in Model)
 	{
-		<div class="col-lg-4 col-md-6 catalogue-item filter-app">
-            <div>
-        		<img src="~/img/books/@item.imagen" class="img-fluid" alt="@item.imagen" style="width: 400px; height: 500px">
-            </div>
-			<div class="text-white bg-dark mb-3">
-				<div class="card-body" style="width: 350px; height: 230px;">
-					<h5 class="card-title">@Html.DisplayFor(modelItem => item.nombre)</h5>
-						<p class="card-text">@Html.DisplayFor(modelItem => item.descripcion)</p>
-						<div>
-							<p style="text-align: center;"><a class="btn btn-primary" disabled><i class="icofont-price"></i> S/ @Html.DisplayFor(modelItem => item.precio)</a></p>
-							<div class="col" style="text-align: center;">
-								<a asp-controller="Orden" asp-action="AddItem" asp-route-id="@item.ID" class="btn btn-primary"><i class="icofont-cart"></i> Agregar</a>
-								<a href="#" class="btn btn-primary"><i class="icofont-info-circle"></i> Leer más</a>
-							</div>
-						</div>
-				</div>
-			</div>
-        </div>
+        @if (item.Email == @User.Identity.Name)
+        {
+            <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cantidad)
+            </td>
+            </tr>
+        }
 	}
+    </tbody>    
+</table>
+            <div class="form-group">
+                <li><a asp-area="" asp-controller="Orden" asp-action="Proceso"><button class="btn btn-primary">Confirmar</button></a></li>
+            </div>
     </section>
 
 <footer id="footer">

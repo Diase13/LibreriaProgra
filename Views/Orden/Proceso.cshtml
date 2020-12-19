@@ -1,27 +1,53 @@
+@model IEnumerable<LibreriaProgra.Models.OrdenDetail>
 @{
-    ViewData["Title"] = "Carrito de Compras";
+    ViewData["Title"] = "Hecho por Diego Sotomayor";
 }
 
 <div class="container">
-  <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <table class="table table-bordered">
-                 <thead>
-                    <tr>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Precio</th>
-                    <th scope="col">Cantidad</th>
-                    <th scope="col">Subtotal</th>
-                    </tr>
-                 </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">El Resplandor</th>
-                        <td>40</td>
-                        <td>1</td>
-                        <td>40</td>
-                    </tr>                  
-                </tbody>
-            </table>       
+ <section id="catalogue" class="catalogue section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 data-aos="fade-in">Proceso de Pago</h2>
+        </div>
+
+
+    <div class="row catalogue-container" data-aos="fade-up">
+
+    <table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Precio)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Cantidad)
+                </th>
+        </tr>
+    </thead>
+	@foreach (var item in Model)
+	{
+        @if (item.Email == @User.Identity.Name)
+        {
+            <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cantidad)
+            </td>
+            </tr>
+        }
+	}
+    </tbody>    
+</table>
+</section>
   <div class="row">
     <div class="col-md-8 order-md-1">
       <h4 class="mb-3">Direccion de Facturacion</h4>

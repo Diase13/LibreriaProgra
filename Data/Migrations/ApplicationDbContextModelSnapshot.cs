@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace LibreriaProgra.Migrations
+namespace LibreriaProgra.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -19,7 +19,36 @@ namespace LibreriaProgra.Migrations
                 .HasAnnotation("ProductVersion", "3.1.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("LibreriaProgra.Models.Contacto", b =>
+            modelBuilder.Entity("LibreriaProgra.Models.OrdenDetail", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("id")
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<decimal>("Cantidad")
+                        .HasColumnName("cantidad")
+                        .HasColumnType("numeric");
+
+                    b.Property<string>("Email")
+                        .HasColumnName("email")
+                        .HasColumnType("text");
+
+                    b.Property<decimal>("Precio")
+                        .HasColumnName("precio")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("productoID")
+                        .HasColumnName("productoid")
+                        .HasColumnType("integer");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("t_orden_detail");
+                });
+
+            modelBuilder.Entity("LibreriaProgra.Models.Producto", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -28,26 +57,36 @@ namespace LibreriaProgra.Migrations
                         .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
 
                     b.Property<string>("autor")
+                        .IsRequired()
                         .HasColumnName("autor")
                         .HasColumnType("text");
 
                     b.Property<string>("descripcion")
+                        .IsRequired()
                         .HasColumnName("descripcion")
                         .HasColumnType("text");
 
                     b.Property<string>("editorial")
+                        .IsRequired()
                         .HasColumnName("editorial")
                         .HasColumnType("text");
 
                     b.Property<string>("idioma")
+                        .IsRequired()
                         .HasColumnName("idioma")
                         .HasColumnType("text");
 
+                    b.Property<string>("imagen")
+                        .HasColumnName("imagen")
+                        .HasColumnType("text");
+
                     b.Property<string>("isbn")
+                        .IsRequired()
                         .HasColumnName("isbn")
                         .HasColumnType("text");
 
                     b.Property<string>("nombre")
+                        .IsRequired()
                         .HasColumnName("name")
                         .HasColumnType("text");
 
@@ -55,13 +94,35 @@ namespace LibreriaProgra.Migrations
                         .HasColumnName("pages")
                         .HasColumnType("integer");
 
-                    b.Property<int>("precio")
+                    b.Property<decimal>("precio")
                         .HasColumnName("precio")
-                        .HasColumnType("integer");
+                        .HasColumnType("numeric");
 
                     b.HasKey("ID");
 
                     b.ToTable("t_libro");
+                });
+
+            modelBuilder.Entity("LibreriaProgra.Models.Usuario", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("id")
+                        .HasColumnType("integer")
+                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
+
+                    b.Property<string>("Email")
+                        .HasColumnName("email")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnName("name")
+                        .HasColumnType("text");
+
+                    b.HasKey("ID");
+
+                    b.ToTable("t_usuario");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

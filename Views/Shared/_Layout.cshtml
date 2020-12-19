@@ -17,7 +17,7 @@
 <body>
   <header id="header">
     <div class="container d-flex align-items-center">
-      <div class="logo mr-auto">
+      <div class="logo p-2">
         <h1 class="text-light"><a asp-controller="Home" asp-action="Index">The One<span>.</span></a></h1>
       </div>
       <nav class="nav-menu d-none d-lg-block">
@@ -26,8 +26,7 @@
           <li><a asp-controller="Conocenos" asp-action="Index">Conocenos</a></li>
           <li><a asp-controller="Catalogo" asp-action="Index">Catalogo de Libros</a></li>
           <li><a asp-controller="Contactenos" asp-action="Index">Contactenos</a></li>
-          <li><a asp-controller="Carrito" asp-action="Index">Carrito</a></li>
-          <partial name="_MenuPartial" />
+          <li><a asp-controller="Orden" asp-action="Carrito">Carrito</a></li>
           <partial name="_LoginPartial"/>
         </ul>
       </nav>

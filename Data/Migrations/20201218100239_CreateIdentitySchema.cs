@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Migrations;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
-namespace LibreriaProgra.Migrations
+namespace LibreriaProgra.Data.Migrations
 {
     public partial class CreateIdentitySchema : Migration
     {
@@ -53,18 +53,49 @@ namespace LibreriaProgra.Migrations
                 {
                     id = table.Column<int>(nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    name = table.Column<string>(nullable: true),
-                    autor = table.Column<string>(nullable: true),
-                    idioma = table.Column<string>(nullable: true),
-                    isbn = table.Column<string>(nullable: true),
-                    editorial = table.Column<string>(nullable: true),
-                    precio = table.Column<int>(nullable: false),
+                    name = table.Column<string>(nullable: false),
+                    autor = table.Column<string>(nullable: false),
+                    idioma = table.Column<string>(nullable: false),
+                    isbn = table.Column<string>(nullable: false),
+                    editorial = table.Column<string>(nullable: false),
+                    precio = table.Column<decimal>(nullable: false),
                     pages = table.Column<int>(nullable: false),
-                    descripcion = table.Column<string>(nullable: true)
+                    descripcion = table.Column<string>(nullable: false),
+                    imagen = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_t_libro", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "t_orden_detail",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    productoid = table.Column<int>(nullable: false),
+                    email = table.Column<string>(nullable: true),
+                    cantidad = table.Column<decimal>(nullable: false),
+                    precio = table.Column<decimal>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_orden_detail", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "t_usuario",
+                columns: table => new
+                {
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    name = table.Column<string>(nullable: false),
+                    email = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_usuario", x => x.id);
                 });
 
             migrationBuilder.CreateTable(
@@ -230,6 +261,12 @@ namespace LibreriaProgra.Migrations
 
             migrationBuilder.DropTable(
                 name: "t_libro");
+
+            migrationBuilder.DropTable(
+                name: "t_orden_detail");
+
+            migrationBuilder.DropTable(
+                name: "t_usuario");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

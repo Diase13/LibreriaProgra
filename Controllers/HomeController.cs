@@ -28,16 +28,6 @@ namespace LibreriaProgra.Controllers
             return View();
         }
 
-        public IActionResult Compras()
-        {
-            return View();
-        }
-
-        public IActionResult Info()
-        {
-            return View();
-        }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

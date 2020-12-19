@@ -1,4 +1,4 @@
-@model LibreriaProgra.Models.Contacto
+@model LibreriaProgra.Models.Producto
 
 @{
     ViewData["Title"] = "Registro de libros";
@@ -13,10 +13,10 @@
 
       <h1 class="display-4">Registro de libros</h1>
       <div align="right">
-        <button  class="btn btn-secondary"  onclick="window.location='@Url.Action("Listar", "Contacto")'" >Cancelar</button> 
+        <button  class="btn btn-secondary"  onclick="window.location='@Url.Action("Listar", "Producto")'" >Cancelar</button> 
         </div>
   
-   <form asp-controller="Contacto" asp-action="Enviar">
+   <form asp-controller="Producto" asp-action="Enviar">
        <div class="form-group">
             <label asp-for="nombre"  class="control-label"></label>
                 <input asp-for="nombre" class="form-control"/>
@@ -67,11 +67,14 @@
             <div class="form-group">
                 <label asp-for="descripcion" class="control-label"></label>
                 <textarea asp-for="descripcion" class="form-control"></textarea>
+            </div> 
+
+            <div class="form-group">
+                <label asp-for="imagen" class="control-label"></label>
+                <textarea asp-for="imagen" class="form-control"></textarea>
             </div>  
             
-          
-
-               <div class="form-group text-center" >
+              <div class="form-group text-center" >
               <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
    </form>

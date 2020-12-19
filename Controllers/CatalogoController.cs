@@ -5,7 +5,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using LibreriaProgra.Models;
+using LibreriaProgra.Data;
 
 namespace LibreriaProgra.Controllers
 {
@@ -13,15 +16,19 @@ namespace LibreriaProgra.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public CatalogoController(ILogger<HomeController> logger)
+        private readonly ApplicationDbContext _context;
+
+        public CatalogoController(ILogger<HomeController> logger,
+            ApplicationDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var listContactos=_context.Productos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
+            return View(listContactos);
         }
-
     }
 }

@@ -4,7 +4,7 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <li class="nav-item">
+    <li>
         <a  class="nav-link " asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity.Name!</a>
     </li>
     <li class="nav-item">
@@ -12,19 +12,22 @@
             <button  type="submit" class="nav-link btn btn-link ">Logout</button>
         </form>
     </li>
-    <li class="nav-item">
-        <a class="nav-link " asp-area="" asp-controller="Contacto" asp-action="Index">Registrar Libro</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link " asp-area="" asp-controller="Usuario" asp-action="Index">Registrar Usuario</a>
-    </li>
+    @if (@User.Identity.Name=="admin@gmail.com")
+    {
+        <li>
+        <a class="nav-link" asp-area="" asp-controller="Producto" asp-action="Index">Registrar Libro</a>
+        </li>
+        <li>
+            <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Index">Listar Usuario</a>
+        </li>
+    }
 }
 else
 {
-    <li class="nav-item">
+    <li>
         <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Register</a>
     </li>
-    <li class="get-started" >
+    <li>
         <a class="nav-link" asp-area="Identity" asp-page="/Account/Login">Login</a>
     </li>
 }

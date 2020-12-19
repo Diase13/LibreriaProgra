@@ -12,14 +12,14 @@ using LibreriaProgra.Data;
 
 namespace LibreriaProgra.Controllers
 {
-    public class ContactoController : Controller
+    public class ProductoController : Controller
     {
 
-       private readonly ILogger<ContactoController> _logger;
+       private readonly ILogger< ProductoController> _logger;
        private readonly ApplicationDbContext _context;
 
 
-        public ContactoController(ILogger<ContactoController> logger,
+        public  ProductoController(ILogger< ProductoController> logger,
             ApplicationDbContext context)
         {
             _logger = logger;
@@ -33,7 +33,7 @@ namespace LibreriaProgra.Controllers
 
         public IActionResult Listar()
         {
-            var listContactos=_context.Contactos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
+            var listContactos=_context.Productos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
             return View(listContactos);
         }
      
@@ -48,7 +48,7 @@ namespace LibreriaProgra.Controllers
                 return NotFound();
             }
 
-            var contacto = await _context.Contactos.FindAsync(id);
+            var contacto = await _context. Productos.FindAsync(id);
             if (contacto == null)
             {
                 return NotFound();
@@ -58,9 +58,9 @@ namespace LibreriaProgra.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,nombre,autor,idioma,isbn,editorial,precio,pagina,descripcion,imagen")] Contacto contacto)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,nombre,autor,idioma,isbn,editorial,precio,pagina,descripcion,imagen")] Producto producto)
         {
-            if (id != contacto.ID)
+            if (id !=  producto.ID)
             {
                 return NotFound();
             }
@@ -69,7 +69,7 @@ namespace LibreriaProgra.Controllers
             {
                 try
                 {
-                    _context.Update(contacto);
+                    _context.Update(producto);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -80,20 +80,20 @@ namespace LibreriaProgra.Controllers
                   TempData["prueba02"] = "prueba02";
                 return RedirectToAction(nameof(Listar));
             }
-            return View(contacto);
+            return View(producto);
         }
         
 
         // GET: http://localhost:5000/Contacto/Delete/6 MUESTRA Contacto
         public IActionResult Delete(int? id)
         {
-            var contacto = _context.Contactos.Find(id);
-            _context.Contactos.Remove(contacto);
+            var producto = _context.Productos.Find(id);
+            _context.Productos.Remove(producto);
             _context.SaveChanges();
             return RedirectToAction(nameof(Listar));
         }
 
-        public IActionResult Enviar(Contacto objFormulario)
+        public IActionResult Enviar(Producto objFormulario)
         {
               if (ModelState.IsValid)
                 {
