@@ -647,7 +647,8 @@ section {
   background: url(../img/login.jpg);
   background-size: cover;
   background-attachment: fixed;
-  height: 745px;
+  height: 740px;
+  
 }
 * {
   box-sizing: border-box;
