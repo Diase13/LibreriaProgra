@@ -696,6 +696,7 @@ input[type="password"]{
 }
 .button:hover{
   background: #FDD067;
+  color:  #213b52;
 }
 p{
   text-align: center;
