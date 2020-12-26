@@ -2,17 +2,20 @@
 @inject SignInManager<IdentityUser> SignInManager
 @inject UserManager<IdentityUser> UserManager
 
+<ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))
 {
-    <li>
-        <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Index">Lista Usuarios</a>
-    </li>  
+
+
+    @if (@User.Identity.Name=="admin@gmail.com")
+    {
+        <li>
+        <a class="nav-link" asp-area="" asp-controller="Producto" asp-action="Index">Registrar Libro</a>
+        </li>
+        <li>
+            <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Index">Listar Usuario</a>
+        </li>
+    }
 }
-else{
-    <li>
-        <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Create">Usuario</a>
-    </li> 
-    <li>
-        <a class="nav-link" asp-area="" asp-controller="Usuario" asp-action="Create">Usuario</a>
-    </li>  
-}
+
+</ul>
