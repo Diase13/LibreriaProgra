@@ -30,5 +30,21 @@ namespace LibreriaProgra.Controllers
             var listContactos=_context.Productos.OrderBy(y => y.nombre).OrderBy(x => x.descripcion).ToList();
             return View(listContactos);
         }
+
+        // GET: Contacto/Edit/5
+        public async Task<IActionResult> Info(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var contacto = await _context. Productos.FindAsync(id);
+            if (contacto == null)
+            {
+                return NotFound();
+            }
+            return View(contacto);
+        }
     }
 }

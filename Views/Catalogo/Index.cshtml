@@ -28,7 +28,7 @@
 							<p style="text-align: center;"><a class="btn btn-primary" disabled><i class="icofont-price"></i> S/ @Html.DisplayFor(modelItem => item.precio)</a></p>
 							<div class="col" style="text-align: center;">
 								<a asp-controller="Orden" asp-action="AddItem" asp-route-id="@item.ID" class="btn btn-primary"><i class="icofont-cart"></i> Agregar</a>
-								<a href="#" class="btn btn-primary"><i class="icofont-info-circle"></i> Leer más</a>
+								<a asp-action="Info" asp-route-id="@item.ID" class="btn btn-primary"><i class="icofont-info-circle"></i> Leer más</a>
 							</div>
 						</div>
 				</div>

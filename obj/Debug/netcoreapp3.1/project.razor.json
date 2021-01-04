@@ -14402,6 +14402,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Shared\\_MenuPartial.cshtml",
       "TargetPath": "Views\\Shared\\_MenuPartial.cshtml",
       "FileKind": "mvc"
@@ -14422,6 +14427,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Orden\\Proceso.cshtml",
       "TargetPath": "Views\\Orden\\Proceso.cshtml",
       "FileKind": "mvc"
@@ -14439,6 +14449,11 @@
     {
       "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\Desktop\\Progra1\\LibreriaProgra\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
       "FileKind": "mvc"
     },
     {

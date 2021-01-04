@@ -1,7 +1,7 @@
+@model LibreriaProgra.Models.Producto
 @{
     ViewData["Title"] = "Informacion";
 }
-
 <div class="container">
     <div class="card">
         <div class="row">
@@ -9,22 +9,20 @@
                 <div class="card mb-4 shadow-sm">
                     <a asp-area="" asp-controller="Home" asp-action="Info">
                     <span class="border"><img class="card-img-top" 
-                    style="height: 500px; width: 100%; display: block;" src="~/img/books/elresplandor.jpg"></span>
+                    style="height: 500px; width: 100%; display: block;" src="@Model.imagen"></span>
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
-                <h4>El Resplandor</h4>
+                <h4>@Model.nombre</h4>
                 <hr>
                 <ul class="list-unstyled">
                     <li>
-                        <p>Autor: Stephen King</p>
+                        <p>Autor: @Model.autor</p>
                         <hr>
                     </li>
                     <li>
-                        <p>Descripcion: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, obcaecati. 
-                            At praesentium quasi nisi veniam! Illum, id, quibusdam quidem aperiam, laborum modi a 
-                            voluptas reiciendis ipsa sequi deleniti. Commodi, qui?
+                        <p>Descripcion: @Model.descripcion
                         </p>
                     </li>
                 </ul>
@@ -33,9 +31,9 @@
                 <h4>Precio</h4>
                 <hr>
                 <ul class="list-unstyled">
-                    <li>S/ 30.50</li>
+                    <li>@Model.precio</li>
                     <hr>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Compras"><button class="btn btn-primary">COMPRAR</button></a></li>
+                    <li><a asp-controller="Orden" asp-action="AddItem" asp-route-id="@Model.ID" class="btn btn-primary"><i class="icofont-cart"></i> Agregar</a></li>
                 </ul>
             </div>
         </div>
@@ -66,3 +64,37 @@
         </div>
     </div>
 </div>
+<footer id="footer">
+
+    <div class="footer-top">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row  justify-content-center">
+          <div class="col-lg-6">
+            <h3>The One</h3>
+            <p>Dirección: Av La Molina, 305 Las gardenias </p>
+            <p>Telefono: +51 996644587</p>
+          </div>
+        </div>
+
+        
+
+        <div class="social-links">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+ 
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span> Copyright</span></strong>. Todos los derechos reservador
+      </div>
+      <div class="credits">
+        Diseñado por <a href="#"> The One</a>
+      </div>
+    </div>
+  </footer>	
