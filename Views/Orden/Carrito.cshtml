@@ -3,7 +3,7 @@
     ViewData["Title"] = "Carrito de Compras";
 }
 
-<section id="catalogue" class="catalogue section-bg">
+<section id="catalogue" class="catalogue section-bg" style="text-align: center;">
       <div class="container">
 
         <div class="section-title">
@@ -47,10 +47,14 @@
 	}
     </tbody>    
 </table>
-            <div class="form-group">
-                <li><a asp-area="" asp-controller="Orden" asp-action="Proceso"><button class="btn btn-primary">Confirmar</button></a></li>
+           
             </div>
     </section>
+
+      <div class="get-started" style="text-align: center;">
+                  <a style="text-align: center;" asp-area="" asp-controller="Orden" asp-action="Proceso">Confirmar</a>
+      </div>
+      <br>
 
 <footer id="footer">
 
