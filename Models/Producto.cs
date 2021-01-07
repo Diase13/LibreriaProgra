@@ -45,9 +45,9 @@ namespace LibreriaProgra.Models
     public Decimal precio { get; set; }
 
     [Required(ErrorMessage="Debe ingresar las paginas del libro a registrar")]
-    [Display(Name="Pagingas del libro")] 
+    [Display(Name="Paginas del libro")] 
     [Column("pages")]
-    public int pagina { get; set; }
+    public int? pagina { get; set; }
 
     [Required(ErrorMessage="Debe ingresar la descripcion del libro a registrar")]
     [Display(Name="Descripcion del libro")] 
