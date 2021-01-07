@@ -2,14 +2,20 @@
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-<h2 style="text-align: center;">Lista de Usuario</h2>
+<br>
+<div class="section-title">
+          <h2>Lista de Usuarios</h2>
+          <p>Observa todos los usuarios registrados</p>
+</div>
+
 
 <p>
-    <button class="btn btn-primary"class="btn btn-success" onclick="window.location='@Url.Action("Create", "Usuario")'">Registrar</button>
+    <button class="btn btn-success"class="btn btn-success" onclick="window.location='@Url.Action("Create", "Usuario")'">Registrar</button>
 </p>
-<table class="table table-hover" style="text-align: center;">
-    <thead class="thead-dark" style="text-align: center;">
-        <tr>
+<div class="container">
+<table class="table table-hover" >
+    <thead class="thead-dark" >
+        <tr style="text-align: center;">
                 <th scope="col">
                     #
                 </th>
@@ -32,7 +38,7 @@
 
     @foreach (var item in Model)
     {
-        <tr>
+        <tr style="text-align: center;">
             <th scope="row">
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                  <a asp-action="Delete" asp-route-id="@item.ID">Delete</a> |
@@ -54,6 +60,7 @@
     }        
     </tbody>    
 </table>
+<div class="container">
 
 
 
