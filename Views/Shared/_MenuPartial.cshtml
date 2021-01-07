@@ -9,10 +9,10 @@
 
     @if (@User.Identity.Name=="admin@gmail.com")
     {
-        <li>
+        <li class="center">
         <a class="nav-link colorLetter" asp-area="" asp-controller="Producto" asp-action="Index">Registrar Libro</a>
         </li>
-        <li>
+        <li class="center">
             <a class="nav-link colorLetter" asp-area="" asp-controller="Usuario" asp-action="Index">Listar Usuario</a>
         </li>
     }
