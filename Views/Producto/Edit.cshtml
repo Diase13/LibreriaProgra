@@ -10,7 +10,7 @@
     <div class="col-md-4">
         <h1 class="display-4">Editar Libro</h1>
         <div align="right">
-        <button  class="btn btn-secondary"  onclick="window.location='@Url.Action("Listar", "Producto")'" >Cancelar</button> 
+        <button asp-action="Index" class="btn btn-danger"> Cancelar</button>
         </div>
 
         <form asp-controller="Producto" asp-action="Edit">
