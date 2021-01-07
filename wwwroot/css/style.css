@@ -746,3 +746,15 @@ p{
 .navbar-toggler {
   border-color: #FDD067;
 } 
+
+
+.catalogo{
+background: #213B52;
+
+}
+
+.catalogo h5, .catalogo p{
+
+  color: white;
+
+}
