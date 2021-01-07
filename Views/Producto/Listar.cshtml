@@ -5,14 +5,18 @@
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 
-<h2>Lista Libros</h2>
-
+<br>
+<div class="section-title">
+          <h2 >Libros Registrados</h2>
+          <p>Visualiza todos los libros registrados de nuestra biblioteca</p>
+</div>
 <p>
-    <button class="btn btn-primary"class="btn btn-success" onclick="window.location='@Url.Action("Index", "Producto")'">Registrar</button>
+    <button class="btn btn-success"class="btn btn-success" onclick="window.location='@Url.Action("Index", "Producto")'">Registrar</button>
 </p>
+<div class="container" >
 <table class="table table-hover">
     <thead class="thead-dark">
-        <tr>
+        <tr class="center">
                 <th scope="col">
                     #
                 </th>
@@ -35,7 +39,7 @@
 
     @foreach (var item in Model)
     {
-        <tr>
+        <tr class="center">
             <th scope="row">
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a>| 
                 <a asp-action="Delete" asp-route-id="@item.ID" id="delete">Delete</a>
@@ -50,8 +54,8 @@
                 @Html.DisplayFor(modelItem => item.precio)
             </td>
             <td>
-               <div class="card" style="width: 12rem;">
-               <img src="@item.imagen" class="card-img-top" alt="...">
+               <div class="card img" style="width: 12rem;">
+               <img src="@item.imagen" class="card-img-top"  alt="...">
                <div class="card-body">
 
             </td>
@@ -60,7 +64,7 @@
     }        
     </tbody>    
 </table>
-
+</div>
 
 @if ((String)TempData["prueba"] == "prueba01")
 {
