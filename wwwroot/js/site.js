@@ -37,41 +37,7 @@
       } setTimeout(showAll,400);
     });
     
-    
-  
   
 
-    $(window).on('load', function() {
-      var portfolioIsotope = $('.portfolio-container').isotope({
-        itemSelector: '.portfolio-item',
-        layoutMode: 'fitRows'
-      });
-  
-      $('#portfolio-flters li').on('click', function() {
-        $("#portfolio-flters li").removeClass('filter-active');
-        $(this).addClass('filter-active');
-  
-        portfolioIsotope.isotope({
-          filter: $(this).data('filter')
-        });
-        aos_init();
-      });
-  
-      $(document).ready(function() {
-        $('.venobox').venobox();
-      });
-    });
-  
-
-    function aos_init() {
-      AOS.init({
-        duration: 800,
-        easing: "ease-in-out",
-        once: true
-      });
-    }
-    $(window).on('load', function() {
-      aos_init();
-    });
   
   })(jQuery);
