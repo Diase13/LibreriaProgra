@@ -2,42 +2,45 @@
 @{
     ViewData["Title"] = "Informacion";
 }
+<br>
+<br>
 <div class="container">
-    <div class="card">
+    <div class="card" style="border: none;">
         <div class="row">
             <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
+                <div class="card mb-4">
                     <a asp-area="" asp-controller="Home" asp-action="Info">
-                    <span class="border"><img class="card-img-top" 
-                    style="height: 500px; width: 100%; display: block;" src="@Model.imagen"></span>
+                    <img class="card-img-top" 
+                    style="height: 500px; width: 100%; " src="@Model.imagen">
                     </a>
                 </div>
             </div>
             <div class="col-md-4">
-                <h4>@Model.nombre</h4>
+                <h4 style="text-align: center;" class="colorForm">@Model.nombre</h4>
                 <hr>
                 <ul class="list-unstyled">
                     <li>
-                        <p>Autor: @Model.autor</p>
+                        <p class="colorForm">AUTORr: @Model.autor</p>
                         <hr>
                     </li>
                     <li>
-                        <p>Descripcion: @Model.descripcion
-                        </p>
+                        <p Class="colorForm">DESCRIPCIÓN: @Model.descripcion</p>
+                       
                     </li>
                 </ul>
             </div>
             <div class="col-md-4">
-                <h4>Precio</h4>
+                <h4 style="text-align: center;" class="colorForm">PRECIO</h4>
                 <hr>
-                <ul class="list-unstyled">
-                    <li>@Model.precio</li>
+                <ul class="list-unstyled" style="text-align: center;">
+                    <li class="colorForm">@Model.precio</li>
                     <hr>
-                    <li><a asp-controller="Orden" asp-action="AddItem" asp-route-id="@Model.ID" class="btn btn-primary"><i class="icofont-cart"></i> Agregar</a></li>
+                    <li><a asp-controller="Orden" asp-action="AddItem" asp-route-id="@Model.ID" class="btn btn-success"><i class="icofont-cart"></i> Agregar</a></li>
                 </ul>
             </div>
         </div>
     </div>
+    
     <div class="container">
         <hr>
         <h3>Libros parecidos</h3>
