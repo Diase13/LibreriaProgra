@@ -16,36 +16,23 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  background: #284864;
-  color: #fff;
-  transition: display 0.5s ease-in-out;
-  z-index: 99999;
-  transition: all ease-in-out 0.3s;
+.center {
+  text-align: center;
 }
 
-.back-to-top i {
-  font-size: 24px;
-  position: absolute;
-  top: 8px;
-  left: 8px;
+.top{
+  padding-top: 6px;
 }
 
-.back-to-top:hover {
-  color: #fff;
-  background: #fdc134;
+.colorForm{
+  color:#213B52 ;
+  -webkit-text-stroke: 1px  #213B52;
+  font-size:x-large;
 }
 
+input[type='radio'] {
+  -webkit-appearance: none;
+}
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -686,25 +673,24 @@ input[type="password"]{
 }
 
 
-.button {
+.button, .get-started{
 
   padding-top: 0px;
   text-align: center;
-
 }
 
-.button button{
-
+.get-started a, .button button, .get-started input{
 background: #213B52;
 color: white;
 border-radius: 30px;
 margin: 2px 0 0 2px;
 padding: 4px 25px 4px 25px;
 border: 3px solid #EDC751;
+text-align: center;
 
 }
 
-.button button:hover{
+.get-started a:hover, .button button:hover, .get-started input:hover{
 
 background: #EDC751;
 color: #213B52;
@@ -734,20 +720,17 @@ p{
   }
 }
 
-.get-started a {
-  background: #213b52;
-  color: #fff;
-  border-radius: 50px;
-  margin: 2px 0 0 15px;
-  padding: 4px 25px 6px 25px;
-  border: 2px solid #fdc134;
-}
-
-.get-started a:hover {
-  background: #fdc134;
-  color: #213b52;
-}
 
 .colorLetter{
   color: white;
 }
+
+.formM input, .formM select{ 
+  border: 5px solid #213B52;
+}
+
+.formM input:hover, .formM input:hover{
+
+  border: 5px solid #EDC751;
+}
+
